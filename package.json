@@ -1,0 +1,25 @@
+{
+  "name": "greemzaa-cybersecurity",
+  "version": "1.0.0",
+  "description": "GreeMZaaКиберБезопасность — Глобальный скилл /audit для Antigravity (чек-лист из 50 проверок безопасности, отказоустойчивости и защиты данных)",
+  "type": "module",
+  "main": "scripts/quick-audit.mjs",
+  "scripts": {
+    "audit": "node scripts/quick-audit.mjs",
+    "test": "node scripts/quick-audit.mjs ."
+  },
+  "keywords": [
+    "security",
+    "audit",
+    "cybersecurity",
+    "antigravity",
+    "skill",
+    "zero-trust",
+    "production-readiness",
+    "idor",
+    "rls",
+    "web-security"
+  ],
+  "author": "GreeMZaa",
+  "license": "MIT"
+}
